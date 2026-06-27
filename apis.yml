@@ -69,7 +69,7 @@ apis:
         url: https://api-portal.cma-cgm.com/products/api/operation.trackandtrace.v1
       - type: Documentation
         url: https://dcsa.org/standards/track-trace
-      - type: SignUp
+      - type: Signup
         url: https://api-portal.cma-cgm.com/
   - aid: cma-cgm:cma-cgm-schedules-api
     name: CMA CGM Schedules API
@@ -93,7 +93,7 @@ apis:
         url: https://api-portal.cma-cgm.com/products/schedules
       - type: HumanURL
         url: https://www.cma-cgm.com/ebusiness/schedules
-      - type: SignUp
+      - type: Signup
         url: https://api-portal.cma-cgm.com/
   - aid: cma-cgm:cma-cgm-quotation-api
     name: CMA CGM Quotation API
@@ -114,7 +114,7 @@ apis:
     properties:
       - type: Documentation
         url: https://api-portal.cma-cgm.com/
-      - type: SignUp
+      - type: Signup
         url: https://api-portal.cma-cgm.com/
   - aid: cma-cgm:cma-cgm-booking-request-api
     name: CMA CGM Booking Request API
@@ -135,7 +135,7 @@ apis:
     properties:
       - type: Documentation
         url: https://api-portal.cma-cgm.com/products/api/shipping.bookingrequest.v1
-      - type: SignUp
+      - type: Signup
         url: https://api-portal.cma-cgm.com/
   - aid: cma-cgm:cma-cgm-invoice-api
     name: CMA CGM Invoice API
@@ -157,7 +157,7 @@ apis:
         url: https://api-portal.cma-cgm.com/
       - type: HumanURL
         url: https://www.cma-cgm.com/products-services/ecommerce/finance
-      - type: SignUp
+      - type: Signup
         url: https://api-portal.cma-cgm.com/
   - aid: cma-cgm:ceva-logistics-tracking-api
     name: CEVA Logistics Tracking API
@@ -229,7 +229,7 @@ common:
     url: https://www.containershipsgroup.com
   - type: Subsidiary
     url: https://www.cmacgm-aircargo.com
-  - type: Standard
+  - type: Standards
     url: https://dcsa.org/
   - type: GitHubOrganization
     url: https://github.com/cma-cgm
