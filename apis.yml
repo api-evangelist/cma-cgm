@@ -179,6 +179,8 @@ apis:
       - type: Documentation
         url: https://developer.cevalogistics.com/
 common:
+  - type: DomainSecurity
+    url: security/cma-cgm-domain-security.yml
   - type: Website
     url: https://www.cma-cgm.com
   - type: Group
