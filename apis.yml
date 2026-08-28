@@ -18,6 +18,17 @@ description: >-
   including ZEBOX (startup accelerator), Traxens-based IoT smart containers,
   and a strategic AI partnership with Mistral.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
