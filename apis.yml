@@ -51,6 +51,22 @@ tags:
   - Freight
   - Supply Chain
   - Ports
+  - Terminal
+  - Track and Trace
+  - DCSA
+  - EDI
+  - Air Cargo
+  - Intermodal
+  - Ocean Freight
+  - Smart Containers
+tags_raw:
+  - Shipping
+  - Container Shipping
+  - Maritime
+  - Logistics
+  - Freight
+  - Supply Chain
+  - Ports
   - Terminals
   - Track and Trace
   - DCSA
@@ -105,6 +121,12 @@ apis:
       the EDI channel.
     humanURL: https://api-portal.cma-cgm.com/products/schedules
     tags:
+      - Schedule
+      - Vessel Schedule
+      - Port Schedule
+      - Sailing Schedule
+      - Routing
+    tags_raw:
       - Schedules
       - Vessel Schedule
       - Port Schedule
@@ -169,6 +191,12 @@ apis:
       logging in to MyCMA CGM. Parallels the EDIFACT INVOIC EDI feed.
     humanURL: https://api-portal.cma-cgm.com/
     tags:
+      - Invoices
+      - Finance
+      - Billing
+      - Document Retrieval
+      - EDIFACT
+    tags_raw:
       - Invoice
       - Finance
       - Billing
