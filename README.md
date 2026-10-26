@@ -1,0 +1,180 @@
+# CMA CGM (cma-cgm)
+
+<!-- API-EVANGELIST-PROVENANCE:BEGIN -->
+> ### About this repository
+>
+> **This is not our API.** This repository is an independent, third-party profile of a company's
+> **publicly available** API surface, maintained by [API Evangelist](https://apievangelist.com).
+> API Evangelist does not operate, host, resell, or support this company's APIs, and is not
+> affiliated with or endorsed by the company unless stated on the profile.
+>
+> **Where the information came from.** Everything here is assembled from material a member of the
+> public can reach with a browser and no credentials — the company's own website, developer portal
+> and documentation, the specifications it publishes for public use (OpenAPI, AsyncAPI, JSON Schema,
+> `apis.json`, `llms.txt` and similar), its public repositories, and its public status, pricing and
+> changelog pages. **Nothing here is obtained by breaching a system, defeating an access control, or
+> using credentials of any kind.**
+>
+> **The rating is an independent assessment.** The Kin Score and Agent Readiness rating are
+> independently calculated scores of a company's *public* API artifacts, produced by API Evangelist
+> against a published rubric. They are not certifications, endorsements, security assessments, or
+> audits, and they score published artifacts — not the quality, safety, or security of the software.
+>
+> **Corrections, re-scores, and removal are free.** No partnership, contract, or purchase is
+> required, and you do not need to justify the request.
+>
+> - **Something wrong?** Open an issue on this repository, or email
+>   [info@apievangelist.com](mailto:info@apievangelist.com).
+> - **Published something new?** Ask for a re-score and we will re-run the rating.
+> - **Want the listing taken down?** Say so and we will honor it. The profile is reduced to your
+>   company name, a factual description, and a link to your own site, and the company is recorded as
+>   **unrated** — never scored zero for having asked.
+>
+> **Response times.** Acknowledgement within **one business day**; removal or restriction within
+> **two business days**; corrections and re-scores within **five business days**.
+>
+> **Not from the company, and here with a question?** You are welcome here — we would rather be the
+> front line and point you the right way than have a good report go nowhere. What this repository
+> can answer is narrow, though, so it is worth knowing who you are actually looking for:
+>
+> - **A question about how the API works, an account, billing, or a bug in the service** — that is
+>   the company's own support, not us. We profile this API; we do not operate it and cannot see
+>   your account.
+> - **A bug in an open-source project we only catalog** — file it on that project's own repository.
+>   This has happened with a real and correct bug report that reached us instead of the people who
+>   could fix it, which helped nobody.
+> - **Anything about this listing itself** — the description, the tags, the rating, a missing or
+>   wrong artifact — is ours. Open an issue here.
+> - **Not sure, or something general about API Evangelist or APIs.io** — open an issue on the
+>   [APIs.io Inbox](https://github.com/api-search/inbox) and we will route it.
+>
+> **This repository contains no software, and we will never ask you to download anything.** There is
+> no build, release, installer, or binary here — only text and machine-readable API descriptions, so
+> there is nothing here that can be "corrupt" or need "repairing". Any issue, comment, or email
+> claiming otherwise and offering a download link is not from us and is hostile. Do not follow the
+> link; it is a lure. Report it to GitHub and, if you like, tell us at
+> [info@apievangelist.com](mailto:info@apievangelist.com) so we can take it down.
+>
+> **On a security or compliance team?** Email
+> [info@apievangelist.com](mailto:info@apievangelist.com) with *security* in the subject line and
+> you will get a person, not a form. We will tell you exactly which public URLs this profile was
+> built from so your team can see the same surface we did, and we will take the listing down on
+> request while you work through it.
+>
+> Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
+<!-- API-EVANGELIST-PROVENANCE:END -->
+
+CMA CGM is a Marseille-headquartered French container shipping, logistics, and port operator and the third-largest ocean carrier in the world. Founded in 1978 by Jacques Saadé and led today by Chairman & CEO Rodolphe Saadé, the CMA CGM Group operates a fleet of 593 vessels with 4.5M TEU capacity calling 420 ports across 160 countries on 257 maritime services. Through `api-portal.cma-cgm.com` the group exposes a DCSA-aligned REST API surface — Track and Trace v1, Schedules, Booking Request, Quotation, and Invoice — alongside a parallel EDIFACT EDI catalog, the CEVA Logistics tracking API, Traxens-based smart container telemetry, the ZEBOX startup accelerator, and a strategic AI partnership with Mistral.
+
+**URL:** [Visit APIs.json](https://raw.githubusercontent.com/api-evangelist/cma-cgm/refs/heads/main/apis.yml)
+
+## Tags
+
+Shipping, Container Shipping, Maritime, Logistics, Freight, Supply Chain, Ports, Terminals, Track and Trace, DCSA, EDI, Air Cargo, Intermodal, Ocean Freight, Smart Containers
+
+## Timestamps
+
+- **Created:** 2026-05-25
+- **Modified:** 2026-05-25
+
+## Group Snapshot
+
+| Metric | Value |
+|---|---|
+| Founded | 1978 (Marseille, France) |
+| Chairman & CEO | Rodolphe Saadé |
+| Headquarters | CMA CGM Tower, Marseille |
+| Fleet | 593 vessels — 4.5M TEU |
+| Services | 257 maritime services calling 420 ports in 160 countries |
+| Employees | ~160,000 |
+| Revenue (FY2024) | $55.48B |
+| Q1 2026 Revenue | $13.23B |
+| Ranking | #3 container carrier (after Maersk, MSC) |
+| Alliance | Ocean Alliance (with COSCO, Evergreen) |
+
+## APIs
+
+### CMA CGM Track and Trace API
+DCSA Track & Trace v2.2.0 REST API at `https://apis.cma-cgm.net/operation/trackandtrace/v1`. Public tier uses an API key for equipment moves, transshipments, and planned vessel dates; Private tier uses OAuth2 client credentials and verified booking-party identity to additionally expose actual rail/ramp moves and inland event detail.
+
+**Human URL:** [https://api-portal.cma-cgm.com/products/api/operation.trackandtrace.v1](https://api-portal.cma-cgm.com/products/api/operation.trackandtrace.v1)
+
+### CMA CGM Schedules API
+Point-to-point sailing solutions, port schedules, and vessel itineraries across the CMA CGM, ANL, APL, CNC, and Containerships networks for a 12-week horizon. Parallels the EDIFACT IFTSAI feed.
+
+**Human URL:** [https://api-portal.cma-cgm.com/products/schedules](https://api-portal.cma-cgm.com/products/schedules)
+
+### CMA CGM Quotation API
+Spot quotations and US service contracts with ocean freight rates plus the full surcharge breakdown (BAF, currency, security, handling, peak season).
+
+**Human URL:** [https://api-portal.cma-cgm.com/](https://api-portal.cma-cgm.com/)
+
+### CMA CGM Booking Request API
+Programmatic booking submission, amendment, and cancellation against CMA CGM Group services. REST surface mirrors the EDIFACT IFTMBF booking message.
+
+**Human URL:** [https://api-portal.cma-cgm.com/products/api/shipping.bookingrequest.v1](https://api-portal.cma-cgm.com/products/api/shipping.bookingrequest.v1)
+
+### CMA CGM Invoice API
+Invoice API family including a Copy Invoice PDF operation for retrieving the original PDF artifact for any invoice number. Parallels the EDIFACT INVOIC feed.
+
+**Human URL:** [https://api-portal.cma-cgm.com/](https://api-portal.cma-cgm.com/)
+
+### CEVA Logistics Tracking API
+Shipment tracking REST API from CMA CGM's contract logistics and freight forwarding subsidiary, covering road, ocean, air, and contract logistics flows.
+
+**Human URL:** [https://developer.cevalogistics.com/](https://developer.cevalogistics.com/)
+
+## Subsidiaries & Brands
+
+| Brand | Domain |
+|---|---|
+| CEVA Logistics (contract logistics, forwarding) | [cevalogistics.com](https://www.cevalogistics.com) |
+| APL (American President Lines) | [apl.com](https://www.apl.com) |
+| ANL (Australian National Line) | [anl.com.au](https://www.anl.com.au) |
+| CNC Line (Cheng Lie Navigation) | [cnc-line.com](https://www.cnc-line.com) |
+| Containerships | [containershipsgroup.com](https://www.containershipsgroup.com) |
+| Comanav (Compagnie Marocaine de Navigation) | — |
+| Mercosul Line | — |
+| CMA CGM Air Cargo (4 A330-200F, 2 B777F) | [cmacgm-aircargo.com](https://www.cmacgm-aircargo.com) |
+| CMA Terminals / Terminal Link | [cma-cgm.com](https://www.cma-cgm.com) |
+| La Méridionale (Corsica ferries) | — |
+| Brittany Ferries (stake) | — |
+| Freightliner (UK intermodal, acquired 2026) | — |
+| CMA Média (La Provence, Corse-Matin, La Tribune, BFM-RMC, Brut) | — |
+
+## Common Properties
+
+- [Website](https://www.cma-cgm.com)
+- [Group](https://www.cmacgm-group.com/en)
+- [API Portal](https://api-portal.cma-cgm.com/)
+- [MyCMA CGM Portal](https://www.cma-cgm.com/my-cma-cgm)
+- [Usage Guide](https://api-portal.cma-cgm.com/usage-guide)
+- [Release Notes](https://api-portal.cma-cgm.com/release-notes)
+- [EDI Catalog](https://cloud.customer.cmacgm-group.com/EDI_catalog_EN)
+- [EDI & API Solutions](https://www.cma-cgm.com/products-services/ecommerce/edi-api-channels)
+- [API Support](https://mycustomerservice.cma-cgm.com/s/selfcare/article/API-Solution)
+- [Schedules](https://www.cma-cgm.com/ebusiness/schedules)
+- [Documents & BL](https://www.cma-cgm.com/products-services/ecommerce/documents-bl)
+- [Finance / Invoices](https://www.cma-cgm.com/products-services/ecommerce/finance)
+- [Smart Containers (Traxens)](https://www.cma-cgm.com/services/smart-containers)
+- [Sustainability & Innovation](https://www.cmacgm-group.com/en/sustainability-and-innovation)
+- [Digital & Startup Support](https://www.cmacgm-group.com/en/innovation/digital-startup%20support)
+- [ZEBOX Accelerator](https://www.ze-box.io/)
+- [Newsroom](https://www.cmacgm-group.com/en/news-media)
+- [GitHub Organization](https://github.com/cma-cgm)
+- [DCSA Standard](https://dcsa.org/)
+
+## Strategic Notes
+
+- **DCSA founding member.** CMA CGM's Track & Trace REST API is one of the earliest and most complete carrier implementations of the DCSA v2.2.0 OpenAPI standard, demonstrating governance maturity around shared maritime data semantics.
+- **Two-tier auth model.** Public connection (API Key, free trial) vs Private connection (OAuth2 client credentials, scopes like `tandtcommercial:read:be`) is a clean pattern other carriers should imitate — public data is public, contractual data sits behind verified booking-party identity.
+- **REST + EDI parity.** Each REST product (Schedules, Booking, Tracking, Invoice) is shipped alongside the equivalent EDIFACT message (IFTSAI, IFTMBF, IFTSTA, INVOIC), which is rare and important — it lets legacy NVOCC and forwarder integrations migrate at their own pace.
+- **Multi-brand surface.** The same API surface covers CMA CGM, ANL, APL, CNC Line, and Containerships, so a single integration reaches five carrier brands.
+- **Mistral AI partnership (€100M).** Group-level commitment to apply LLMs to customer service and logistics — worth watching for downstream agentic API products built on this foundation.
+- **ZEBOX accelerator.** Six global hubs and 15+ corporate partners (BNSF, Vinci, CEVA, Transdev, Port of Virginia) — distribution channel for startups building on the CMA CGM API.
+
+## Maintainers
+
+**FN:** Kin Lane
+
+**Email:** kin@apievangelist.com
